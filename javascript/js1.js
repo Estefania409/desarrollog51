@@ -1,6 +1,6 @@
 console.log("Hola javascript");
-console.warn("Hola perre");
-console.error("Holaaa");
+console.warn("ADVERTENCIA!!");
+console.error("ERROR");
 console.log("Tipo de 34:" + typeof 34 + ".");
 console.log(`Tipo de 34: ${typeof 34}.`);
 
