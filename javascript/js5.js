@@ -28,41 +28,4 @@ function calcular(){
 }
 
 
-function Ver(img,imagen){
-    switch(img){
-        case 1:
-          imagen.src="recursos/1.jpg";
-          break;
-        case 2:
-            imagen.src="recursos/2.jpg";
-            break;
-        case 3:
-            imagen.src="recursos/3.jpg";
-          break;
-        case 4:
-            imagen.src="recursos/4.jpg";
-          break;
-        case 5:
-            imagen.src="recursos/5.jpg";
-          break;
-      }
-};
 
-function VerImagen(){
-    let img = parseInt(document.getElementById("img").value);
-    let imagen = document.getElementById("imagen");
-    console.log(img);
-    Ver(img,imagen);
-}
-
-
-
-let genera = document.getElementById("genera")
-      let numero = document.getElementById("numtab")
-      let lienzo = document.getElementById("tab")
-    
-      genera.addEventListener("click", () => {
-        for(let i = 1; i<=10; i++) {
-          lienzo.innerHTML += `${numero.value} * ${i} = ${numero.value*i} <br />`
-        }
-      })
